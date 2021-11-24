@@ -10,11 +10,7 @@ const getBrowser = async (): Promise<puppeteer.Browser> => {
 
 const getPage = async () => {
   const b = await getBrowser();
-  if (page) {
-    await page.reload();
-    await page.waitForSelector('h1.logo');
-    return page;
-  }
+  if (page) return page;
   page = await b.newPage();
   await page.goto('https://joshivaibhavs.github.io/q-and-ace/');
   await page.waitForSelector('h1.logo');
@@ -39,6 +35,13 @@ describe('Q & Ace e2e tests', () => {
     const logoEl = await p.$eval('h1.logo', (el) => el.innerHTML);
     console.log(logoEl);
     const logo = logoEl.toString();
-    expect(logo).toEqual('<a href=\"index.html\">Q &amp; Ace<span>.</span></a>');
+    expect(logo).toEqual('<a href="index.html">Q &amp; Ace<span>.</span></a>');
+  });
+
+  test('Site has the correct image', async () => {
+    const p = await getPage();
+    const bgImage = await p.$eval('section#hero', (el) => getComputedStyle(el).getPropertyValue('background'));
+    console.log(bgImage);
+    expect(bgImage.includes('assets/img/hero-bg.jpg')).toBe(true);
   });
 });

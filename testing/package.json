@@ -1,7 +1,8 @@
 {
   "name": "q-and-ace-e2e-tests",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "file": "ts-node"
   },
   "dependencies": {
     "@types/jest": "^27.0.2",
