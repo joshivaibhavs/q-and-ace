@@ -1,5 +1,11 @@
 body {
   background-image: url(../img/body-bg.png);
   background-repeat: repeat;
-  background-size: 20%;
+  background-attachment: fixed;
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    background-size: 20%;
+  }
 }
