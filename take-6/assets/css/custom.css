@@ -9,3 +9,11 @@ body {
     background-size: 20%;
   }
 }
+
+.bg-custom-color {
+  background-color: #9b99a8;
+}
+
+#contact i.bi {
+  background: #ff7036 !important;
+}
