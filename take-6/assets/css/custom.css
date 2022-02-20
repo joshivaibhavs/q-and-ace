@@ -17,3 +17,9 @@ body {
 #contact i.bi {
   background: #ff7036 !important;
 }
+
+
+
+.hero-main {
+  max-width: 100%;
+}
