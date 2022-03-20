@@ -1,5 +1,5 @@
 .bg-custom-color {
-  background-color: #9b99a8;
+  background-color: #fafafa;
 }
 
 #contact i.bi {
@@ -10,4 +10,13 @@
 
 .hero-main {
   max-width: 100%;
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.team-img {
+  width: 100%;
 }

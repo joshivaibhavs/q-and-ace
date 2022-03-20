@@ -1,21 +1,6 @@
 const EMAIL_POST_FORM = 'https://or3fw6rvxb.execute-api.ap-south-1.amazonaws.com/dev/email';
 
 (function () {
-  const picker = document.querySelector('#color-picker');
-  const els = document.querySelectorAll('.bg-custom-color');
-  const svgPaths = document.querySelectorAll('path');
-  picker.addEventListener('change', function (e) {
-    const value = e.target.value
-    els.forEach(function (el) {
-      el.style.backgroundColor = value;
-    });
-    svgPaths.forEach(function (p) {
-      p.setAttribute('fill', value)
-    })
-  });
-})();
-
-(function () {
   const inputEmail = document.querySelector('input#email');
   const inputSubject = document.querySelector('input#subject');
   const textareaText = document.querySelector('textarea#text');
