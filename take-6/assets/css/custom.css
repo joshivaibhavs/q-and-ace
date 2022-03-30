@@ -2,6 +2,10 @@
   background-color: #F5F5F5;
 }
 
+svg.bottom-wave path {
+  fill: #F5F5F5;
+}
+
 #contact i.bi {
   background: #ff7036 !important;
 }
