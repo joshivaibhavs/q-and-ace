@@ -24,3 +24,7 @@ svg.bottom-wave path {
 .team-img {
   width: 100%;
 }
+
+#services img {
+  max-height: 30vh;
+}
