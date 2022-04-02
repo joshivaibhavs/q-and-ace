@@ -28,3 +28,9 @@ svg.bottom-wave path {
 #services img {
   max-height: 30vh;
 }
+
+.vertically-center-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
