@@ -35,20 +35,6 @@ svg.bottom-wave path {
   justify-content: center;
 }
 
-/* .pricing-box-border {
-  border: 4px solid #272262;
-  border-radius: 6px;
-  padding: 4px;
-}
-
-.pricing-box-border-primary {
-  border: 5px solid #ff7036;
-  border-radius: 6px;
-  padding: 4px;
-  color: #272262 !important;
-  height: 100%;
-} */
-
 
 /* New Pricing styles */
 .pricing .box {
@@ -66,25 +52,11 @@ svg.bottom-wave path {
   padding: 20px 15px;
   font-size: 16px;
   font-weight: 600;
-  color: #2c4964;
+  color: #272262;
   background: #f8f8f8;
 }
-.pricing h4 {
-  font-size: 36px;
-  color: #5846f9;
-  font-weight: 600;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 20px;
-}
-.pricing h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
+.pricing h3.primary {
+  color: #ff7036;
 }
 .pricing ul {
   padding: 0;
@@ -96,9 +68,4 @@ svg.bottom-wave path {
 }
 .pricing ul li {
   padding-bottom: 16px;
-}
-.pricing ul i {
-  color: #5846f9;
-  font-size: 18px;
-  padding-right: 4px;
 }
