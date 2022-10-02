@@ -41,3 +41,37 @@ const EMAIL_POST_FORM = 'https://or3fw6rvxb.execute-api.ap-south-1.amazonaws.com
     });
   });
 })();
+
+
+(function () {
+  document.addEventListener('DOMContentLoaded', function () {
+    const prices = {
+      'btn-3-months': [
+        '$60 per month', '$75 per month',
+      ],
+      'btn-6-months': [
+        '$55 per month', '$70 per month',
+      ],
+      'btn-12-months': [
+        '$50 per month', '$65 per month',
+      ],
+    }
+    const durationButtons = document.getElementsByClassName('btn-duration');
+    const acePackText = document.getElementById('ace-pack-box').getElementsByClassName('price')[0],
+      stdPackText = document.getElementById('std-pack-box').getElementsByClassName('price')[0];
+    for (const button of durationButtons) {
+      button.addEventListener('click', function (clickEvent) {
+        if (clickEvent.target.classList.contains('btn-primary')) return;
+        for (const btnPrimary of clickEvent.target.parentElement.getElementsByClassName('btn-primary')) {
+          btnPrimary.classList.remove('btn-primary');
+          btnPrimary.classList.add('btn-secondary');
+        }
+        clickEvent.target.classList.remove('btn-secondary');
+        clickEvent.target.classList.add('btn-primary');
+        const [std, ace] = prices[clickEvent.target.id];
+        stdPackText.innerText = std;
+        acePackText.innerText = ace;
+      });
+    }
+  });
+})();
