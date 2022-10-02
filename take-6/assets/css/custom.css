@@ -92,3 +92,23 @@ header a {
 .box-emphasis:hover {
   animation: none;
 }
+
+span.color-accent {
+  color: #ff601f;
+}
+
+ul.features-list {
+  list-style-type: none;
+}
+
+ul.features-list li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 10px;
+  background-color: white;
+  padding: 2rem;
+  border: 2px solid #ff601f;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px gray;
+}
