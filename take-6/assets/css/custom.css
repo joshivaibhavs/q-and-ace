@@ -69,3 +69,7 @@ svg.bottom-wave path {
 .pricing ul li {
   padding-bottom: 16px;
 }
+
+header a {
+  max-width: 10%;
+}
