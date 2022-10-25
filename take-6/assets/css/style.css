@@ -586,8 +586,8 @@ section {
 }
 .services .icon-box .icon {
   margin: 0 auto;
-  width: 64px;
-  height: 64px;
+  width: 80px;
+  height: 80px;
   background: #ff601f;
   border-radius: 4px;
   display: flex;

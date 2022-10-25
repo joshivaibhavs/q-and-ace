@@ -2,6 +2,10 @@
   background-color: #F5F5F5;
 }
 
+.qna-bg-primary {
+  background-color: #272262 !important;
+}
+
 svg.bottom-wave path {
   fill: #F5F5F5;
 }
@@ -10,7 +14,17 @@ svg.bottom-wave path {
   background: #ff7036 !important;
 }
 
+.color-primary {
+  color: #272262 !important;
+}
 
+.border-primary {
+  border: 1px solid #272262 !important;
+}
+
+.border-secondary {
+  border: 1px solid #ff601f !important;
+}
 
 .hero-main {
   max-width: 100%;
@@ -103,18 +117,11 @@ span.color-accent {
   color: #ff601f;
 }
 
-ul.features-list {
-  list-style-type: none;
+.btn-duration.btn-primary {
+  background-color: #272262 !important;
+  border-color: #272262 !important;
 }
 
-ul.features-list li {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: 20px 10px;
-  background-color: white;
-  padding: 2rem;
-  border: 2px solid #ff601f;
-  border-radius: 8px;
-  box-shadow: 10px 10px 10px gray;
+.border-radius-0 {
+  border-radius: 0px !important;
 }
