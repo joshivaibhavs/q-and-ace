@@ -588,7 +588,7 @@ section {
   margin: 0 auto;
   width: 80px;
   height: 80px;
-  background: #ff601f;
+  border: 1px solid #ff601f;
   border-radius: 4px;
   display: flex;
   align-items: center;

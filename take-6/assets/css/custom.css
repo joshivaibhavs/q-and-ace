@@ -125,3 +125,70 @@ span.color-accent {
 .border-radius-0 {
   border-radius: 0px !important;
 }
+
+.pricing6 h1,
+.pricing6 h2,
+.pricing6 h3,
+.pricing6 h4,
+.pricing6 h5,
+.pricing6 h6 {
+  color: #3e4555;
+}
+
+.pricing6 .font-weight-medium {
+  font-weight: 500;
+}
+
+.pricing6 .bg-light {
+  background-color: #f4f8fa !important;
+}
+
+.pricing6 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.pricing6 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+.pricing6 .card.card-shadow {
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.pricing6 .price-box sup {
+  top: -20px;
+  font-size: 16px;
+}
+
+.pricing6 .price-box .display-5 {
+  line-height: 58px;
+  font-size: 3rem;
+}
+
+.pricing6 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
+.pricing6 .text-info {
+    color: #188ef4 !important;
+}
+
+.pricing6 .badge-danger {
+    background-color: #ff4d7e;
+}
+
+.pricing6 .font-14 {
+	font-size: 14px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.feature-video {
+  max-width: 100% !important;
+}

@@ -46,15 +46,9 @@ const EMAIL_POST_FORM = 'https://or3fw6rvxb.execute-api.ap-south-1.amazonaws.com
 (function () {
   document.addEventListener('DOMContentLoaded', function () {
     const prices = {
-      'btn-3-months': [
-        '$60 per month', '$75 per month',
-      ],
-      'btn-6-months': [
-        '$55 per month', '$70 per month',
-      ],
-      'btn-12-months': [
-        '$50 per month', '$65 per month',
-      ],
+      'btn-3-months': ['60', '75'],
+      'btn-6-months': ['55', '70'],
+      'btn-12-months': ['50', '65'],
     }
     const durationButtons = document.getElementsByClassName('btn-duration');
     const acePackText = document.getElementById('ace-pack-box').getElementsByClassName('price')[0],
