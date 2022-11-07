@@ -46,9 +46,9 @@ const EMAIL_POST_FORM = 'https://or3fw6rvxb.execute-api.ap-south-1.amazonaws.com
 (function () {
   document.addEventListener('DOMContentLoaded', function () {
     const prices = {
-      'btn-3-months': ['60', '75', 'Get an extra month free'],
-      'btn-6-months': ['55', '70', 'Get an extra two months free'],
-      'btn-12-months': ['50', '65', 'Get an extra three months free'],
+      'btn-3-months': ['60', '75', 'For 2 months & get an extra month free'],
+      'btn-6-months': ['55', '70', 'For 4 months & get an extra two months free'],
+      'btn-12-months': ['50', '65', 'For 6 months & get an extra three months free'],
     }
     const durationButtons = document.getElementsByClassName('btn-duration');
     const acePackText = document.getElementById('ace-pack-box').getElementsByClassName('price')[0],
