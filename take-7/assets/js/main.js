@@ -258,11 +258,12 @@
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
-    speed: 600,
+    speed: 1000,
     loop: true,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
     },
     slidesPerView: 'auto',
     pagination: {

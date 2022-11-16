@@ -124,6 +124,10 @@ span.color-accent {
   color: #ff601f;
 }
 
+.color-accent {
+  color: #ff601f;
+}
+
 .btn-duration.btn-primary {
   background-color: #272262 !important;
   border-color: #272262 !important;
