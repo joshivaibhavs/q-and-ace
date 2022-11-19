@@ -200,3 +200,7 @@ span.color-accent {
 .feature-video {
   width: 100% !important;
 }
+
+.font-small {
+  font-size: 0.7rem;
+}
